@@ -1,17 +1,45 @@
-# ahdl-erp-system
-A full ERP system built using HTML, CSS, JavaScript, Node.js, and MongoDB.
+# AHDL ERP System
 
-## Branching Strategy
-- main: production code
-- dev: development code
-- feature/*: new features
+A modular ERP system designed to manage multiple business operations from a single interface.  
+This system will include modules for HR, Inventory, Purchase, Sales, Accounts, Reports, and User Management.
 
-## Technologies
+---
+
+## 🚀 Technologies Used
 - HTML
 - CSS
-- JavaScript
+- JavaScript (ES6)
 - Node.js
-- Express
+- Express.js
 - MongoDB
 - Git & GitHub
 
+---
+
+## 🌿 Branching Strategy
+
+- **main** → production-ready code  
+- **dev** → active development  
+- **feature/*** → feature-specific branches  
+
+All development will follow a strict branch-based workflow for clean version control.
+
+---
+
+## 📁 Project Structure (will expand as project grows)
+
+- client/
+- server/
+- README.md
+
+
+---
+
+## 📌 Project Goal
+
+To build a full ERP system while following real-world software engineering practices:
+- Modular architecture  
+- Clean code  
+- Scalable backend  
+- Structured UI  
+- Professional Git workflow  
