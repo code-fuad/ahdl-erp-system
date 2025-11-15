@@ -1,0 +1,28 @@
+/* sidebar */
+#sidebar {
+    width: 220px;
+    background: var(--dark);
+    color: white;
+    padding: var(--space-2);
+}
+
+#sidebar ul {
+    list-style: none;
+}
+#sidebar ul li {
+    padding: var(--space-3);
+    cursor: pointer;
+}
+#sidebar ul li:hover {
+    background: var(--primary);
+}
+
+header #navbar {
+    height: 60px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 var(--space-4);
+    border-bottom: 1px solid #e5e5e5;
+}

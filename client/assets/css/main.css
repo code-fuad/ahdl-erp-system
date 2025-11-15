@@ -1,0 +1,37 @@
+/* root design system */
+:root {
+    --primary: #4e73df;
+    --secondary: #858796;
+    --success: #1cc88a;
+    --danger: #e74a3b;
+    --warning: #f6c23e;
+    --dark: #2d3436;
+    --light: #f8f9fc;
+
+    --font-family: "Inter", sans-serif;
+
+    --space-1: 4px;
+    --space-2: 8px;
+    --space-3: 12px;
+    --space-4: 16px;
+    --space-5: 24px;
+    --space-6: 32px;
+}
+
+/* global reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family);
+    background: var(--light);
+}
+
+/* layout wrapper */
+.layout {
+    display: flex;
+    height: 100vh;
+}
