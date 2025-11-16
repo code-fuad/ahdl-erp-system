@@ -1,0 +1,27 @@
+/* dashboard grid */
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+/* kpi card */
+.kpi-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+.kpi-card h3 {
+  font-size: 16px;
+  color: var(--secondary);
+}
+
+.kpi-value {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--primary);
+    margin-top: 10px;
+}
